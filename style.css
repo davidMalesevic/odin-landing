@@ -25,3 +25,33 @@
 .dark-text {
   color: #1f2937;
 }
+
+a.header-logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+header {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  padding: 0;
+  gap: 16px;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-item > a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
