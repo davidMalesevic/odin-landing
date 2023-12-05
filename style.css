@@ -1,3 +1,27 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+
+.light-bg {
+  background-color: #fefeff;
+}
+
+.medium-bg {
+  background-color: #e5e7eb;
+}
+
+.dark-bg {
+  background-color: #1f2937;
+}
+
+.extra-light-text {
+  color: #f9faf8;
+}
+
+.light-text {
+  color: #e5e7eb;
+}
+
+.dark-text {
+  color: #1f2937;
+}
