@@ -133,3 +133,20 @@ header {
   height: 150px;
   border-radius: 16px;
 }
+
+.quote {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+.quotee {
+  text-align: end;
+  font-size: 24px;
+  font-weight: 700;
+}
