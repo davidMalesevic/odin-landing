@@ -26,6 +26,11 @@
   color: #1f2937;
 }
 
+.section {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 a.header-logo {
   font-size: 24px;
   text-decoration: none;
@@ -34,8 +39,6 @@ a.header-logo {
 }
 
 header {
-  padding-left: 10%;
-  padding-right: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,4 +57,41 @@ header {
 .nav-item > a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  gap: 32px;
+  padding-top: 128px;
+
+  padding-bottom: 128px;
+}
+
+.hero-text {
+  flex: 1 1 50%;
+}
+
+.hero-text > h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+.hero-text > p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #e5e7eb;
+}
+
+.hero-text > button {
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 8px 32px 8px 32px;
+  border-radius: 8px;
+  border: 0;
+}
+
+.hero-img {
+  flex: 1 1 50%;
 }
